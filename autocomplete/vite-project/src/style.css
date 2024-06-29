@@ -1,0 +1,39 @@
+.Input_container {
+    width: 300px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.suggestion-container {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px;
+    border-radius: 0px 0px 10px 10px;
+    max-height: 250px;
+    overflow: auto;
+    z-index: -1;
+}
+
+.suggestion-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.suggestion-container::-webkit-scrollbar-thumb {
+    background: rgb(204, 197, 197);
+    border-radius: 10px;
+}
+
+.suggestion-box {
+
+    padding: 0px 20px 0px 20px;
+}
+
+.suggestion-text {
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.suggestion-text:hover {
+    background-color: #eceef5;
+}
