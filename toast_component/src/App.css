@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.toast-container {
+  display: grid;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: 150px 150px;
+}
+
+.toast-container-item {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(237, 239, 240);
+  cursor: pointer;
+}
+
+.toast-container-item:hover {
+  background-color: white;
+}
+
+.toast-container-float {
+  padding: 10px 15px;
+  margin: 15px 0px;
+  box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.toast-container-float-outside {
+  position: absolute;
+  top: 10%;
+}
